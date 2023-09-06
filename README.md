@@ -9,7 +9,7 @@ The hyperparameters are tuned like:
 * cvar_alpha_list = [1.,0.1]
 * parameeter gamma = 0.1
 * number of users K = 3
-* number of global rounds T = 2000
+* number of global rounds T = 4000
 * number of local epochs H = 10
 * users probabilities are [  0.5 , 0.4, 0.1 ]
 * The RAM allows only users_per_round = 1 users to send to the server
