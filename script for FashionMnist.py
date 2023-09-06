@@ -637,10 +637,7 @@ for repeat in Repeat_experiment:
             writer.add_scalar("Overall Training Loss", general_train_loss, epoch)
             ###########################################################################
             ###########################################################################
-        # we apply an update at the learning rate of parameter t, after some epochs.
-        if (i % 1000 == 0) and i<1500:
-            learning_rate_t = learning_rate_t / 10
-
+            
 ######################################################################################################################################################
 ######################################################################################################################################################
 # To visualize the experiments you should use tensorboard.
